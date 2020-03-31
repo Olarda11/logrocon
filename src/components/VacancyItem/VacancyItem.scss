@@ -1,0 +1,26 @@
+.vacancyItem {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-size: 18px;
+    color: #09f;
+  }
+
+  &__employer_name, &__city {
+    font-size: 14px;
+    color: #999;
+  }
+
+  &__info {
+    font-size: 14px;
+  }
+
+  &__publish_date {
+    font-size: 14px;
+    color: #999;
+    float: right;
+  }
+}
